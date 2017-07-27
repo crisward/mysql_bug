@@ -1,0 +1,17 @@
+name: mysql_bug
+version: 0.1.0
+
+authors:
+  - Cris Ward 
+
+targets:
+  mysql_bug:
+    main: src/mysql_bug.cr
+
+dependencies:
+  mysql:
+    github: crystal-lang/crystal-mysql
+
+crystal: 0.23.1
+
+license: MIT
