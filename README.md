@@ -19,3 +19,10 @@ cd mysql_bug
 crystal deps
 crystal spec
 ```
+
+## Update
+
+This pull request fixes the issue - https://github.com/crystal-lang/crystal-db/pull/65
+
+It was being caused when you try to build a prepared query which is invalid.
+My raises any exception, but the connection didn't get release by to the pool
