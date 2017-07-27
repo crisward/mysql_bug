@@ -14,5 +14,8 @@ Not sure if they're not being release back to the pool or something else.
 ## Installation
 
 ```
+git clone git@github.com:crisward/mysql_bug.git
+cd mysql_bug
 crystal deps
+crystal spec
 ```
